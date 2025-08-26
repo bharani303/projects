@@ -337,7 +337,7 @@ button.learn-more-unique:hover .button-text {
   max-width: 450px;
 
 
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .h1d{
@@ -480,13 +480,15 @@ button.learn-more-unique:hover .button-text {
        .content{
         position: relative;
         top: 200px;
-        font-size: 2rem;
+        font-size: 1.2rem;
+        width: 50%;
         gap: 15px;
         display: flex;
         flex-direction: column;
        }
        .content span{
         font-weight: lighter;
+        padding-right: 50px;
        }
        .image{
         margin-top: 30px;
@@ -496,10 +498,10 @@ button.learn-more-unique:hover .button-text {
         width: fit-content;
         background-color: black;
         color: white;
-        font-size: 1.1rem;
+        font-size: .9rem;
         border: none;
-        padding: 20px;
-        border-radius: 10px;
+        padding: 10px;
+        border-radius: 5px;
        }
        .enquiry:hover{
         background-color: rgb(61, 61, 61);
@@ -1140,9 +1142,9 @@ padding-right:20px;
 
 }
  .content{
-    font-size: 1.1rem;
+    font-size: .9rem;
 z-index: 1;
-
+width: 90%;
 padding: 0px;
 top:35px;
  
@@ -1250,6 +1252,9 @@ margin-left: 20px;
       width: 300px;
       height: 210px;
       gap: 5px;
+ }
+ .content{
+    font-size: .8rem;
  }
  .books-div h1{
         font-size: 10px;
